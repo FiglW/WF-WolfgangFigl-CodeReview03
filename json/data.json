@@ -1,0 +1,57 @@
+[
+	{ 
+		"id" : "1",
+		"title": "Muttertag",
+		"Description": "Familie Neugebauer bereitet sich auf den bevorstehenden Muttertag vor. Dabei geht jedes Mitglied auf seine ganz eigene Art und Weise vor.",
+		"Director": "Harald Sicheritz",
+		"likes": "999",
+		"img": //link geht aber lokales bild mit src?//
+
+},
+{
+	"id" : "2",
+		"title": "Contact High",
+		"Description": "Carlos benötigt dringend eine Tasche, die sich in Polen befindet. Er beauftragt den Autohändler Harry mit der Abholung des wertvollen Gepäckstücks. Harry gibt den Auftrag weiter an Schorsch.",
+		"Director": "Michael Glawogger",
+		"likes": "299",
+		"img": //link geht aber lokales bild mit src?//
+},
+
+{
+	"id" : "3",
+		"title": "Indien",
+		"Description": "Der Beamte Heinzi Bösel, ein kleinbürgerlicher Widerling, bekommt als neuen Kollegen ausgerechnet den geschwätzigen, yuppiehaften Streber Kurt Fellner zur Seite gestellt.",
+		"Director": "Paul Harather",
+		"likes": "499",
+		"img": //link geht aber lokales bild mit src?//
+},
+
+{
+	"id" : "4",
+		"title": "The Dark Knight",
+		"Description": "Gotham City hat viele finstere Gestalten hervorgebracht, doch der `Joker' ist anders. Mit brillantem Verstand und grotesk geschminktem Gesicht versucht er, Batmans Revier ins Chaos zu stürzen.",
+		"Director": "Christopher Nolan",
+		"likes": "799",
+		"img": //link geht aber lokales bild mit src?//
+},
+
+{
+	"id" : "5",
+		"title": "Jackass The Movie",
+		"Description": "Johnny Knoxville und sein verrücktes Team probieren absurde und ekelhafte Stunts, die nicht minder gefährlich wie masochistisch sind.",
+		"Director": "Jeff Tremaine",
+		"likes": "199",
+		"img": //link geht aber lokales bild mit src?//
+},
+
+{
+	"id" : "6",
+		"title": "Kingsman The Secret Service",
+		"Description": "Harry Hart arbeitet für einen Geheimdienst, der ständig auf der Suche nach neuen Rekruten ist. ",
+		"Director": "Matthew Vaughn",
+		"likes": "599",
+		"img": //link geht aber lokales bild mit src?//
+}
+
+
+]
