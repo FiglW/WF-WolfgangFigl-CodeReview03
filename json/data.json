@@ -4,9 +4,9 @@ var movies =
 	{ 
 		"id" : "1",
 		"title": "Muttertag",
-		"Description": "Familie Neugebauer bereitet sich auf den bevorstehenden Muttertag vor.Dabei geht jedes Mitglied auf seine ganz eigene Art und Weise vor.",
+		"Description": "Familie Neugebauer bereitet sich auf den bevorstehenden Muttertag vor. Dabei geht jedes Mitglied auf seine ganz eigene Art und Weise vor.",
 		"Director": "Harald Sicheritz",
-		"likes": "10",
+		"Likes": "10",
 		"imagesrc":"./img/muttertag.jpg"
 
 
@@ -14,18 +14,18 @@ var movies =
 {
 	"id" : "2",
 		"title": "Contact High",
-		"Description": "Carlos benötigt dringend eine Tasche, die sich in Polen befindet.Er beauftragt den Autohändler Harry mit der Abholung des wertvollen Gepäckstücks.Harry gibt den Auftrag weiter an Schorsch.",
+		"Description": "Carlos benötigt dringend eine Tasche, die sich in Polen befindet.Er beauftragt den Autohändler Harry mit der Abholung des wertvollen Gepäckstücks.",
 		"Director": "Michael Glawogger",
-		"likes": "7",
+		"Likes": "7",
 		"imagesrc":"./img/contact.jpg"
 },
 
 {
 	"id" : "3",
 		"title": "Indien",
-		"Description": "Der Beamte Heinzi Bösel, ein kleinbürgerlicher Widerling, bekommt als neuen Kollegen ausgerechnet den geschwätzigen,yuppiehaften Streber Kurt Fellner zur Seite gestellt.",
+		"Description": "Der Beamte Heinzi Bösel, ein kleinbürgerlicher Widerling, bekommt als neuen Kollegen ausgerechnet den geschwätzigen, yuppiehaften Streber Kurt Fellner zur Seite gestellt.",
 		"Director": "Paul Harather",
-		"likes": "8",
+		"Likes": "8",
 		"imagesrc": "./img/indien.jpg"
 },
 
@@ -34,7 +34,7 @@ var movies =
 		"title": "The Dark Knight",
 		"Description": "Gotham City hat viele finstere Gestalten hervorgebracht,doch der `Joker' ist anders. Mit brillantem Verstand und grotesk geschminktem Gesicht versucht er, Batmans Revier ins Chaos zu stürzen.",
 		"Director": "Christopher Nolan",
-		"likes": "7",
+		"Likes": "7",
 		"imagesrc": "./img/dark.jpg"
 },
 
@@ -43,7 +43,7 @@ var movies =
 		"title": "Jackass The Movie",
 		"Description": "Johnny Knoxville und sein verrücktes Team probieren absurde und ekelhafte Stunts,die nicht minder gefährlich wie masochistisch sind.",
 		"Director": "Jeff Tremaine",
-		"likes": "4",
+		"Likes": "4",
 		"imagesrc": "./img/jackass.jpg"
 },
 
@@ -52,7 +52,7 @@ var movies =
 		"title": "Kingsman The Secret Service",
 		"Description": "Harry Hart arbeitet für einen Geheimdienst,der ständig auf der Suche nach neuen Rekruten ist. ",
 		"Director": "Matthew Vaughn",
-		"likes": "8",
+		"Likes": "8",
 		"imagesrc": "./img/kings.jpg"
 }
 

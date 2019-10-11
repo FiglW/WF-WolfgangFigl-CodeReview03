@@ -1,15 +1,3 @@
-// Header //
-
-/*	
-  var x = document.createElement("h1");
-  x.className = "oida"
-  var t = document.createTextNode("Movie Database");
-  x.appendChild(t);
-  document.getElementById("head").appendChild(x)
-  */
-
-
-
 
 
 //header//
@@ -33,6 +21,8 @@ var li = document.createElement("li");
 li.className = "item-list";
 li.innerHTML = "<a href='index.html' alt='home'>Home</a>";
 
+
+
 header.appendChild(nav);
 nav.appendChild(ul);
 ul.appendChild(li);
@@ -48,7 +38,7 @@ main.appendChild(div1);
 
 
 div1.className="flexbox";
-
+// show cards//
 for (var i = 0; i < movies.length; i++) {
 	var para = document.createElement("div");
 	para.className = "allefilme";
@@ -64,17 +54,30 @@ for (var i = 0; i < movies.length; i++) {
 
 
     var node = document.createElement("div");
-    node.innerHTML = `<h1>${movies[i].title}</h1> <br> <p>Director: <br><br>${movies[i].Director}</p> <p>Description: <br><br> ${movies[i].Description}</p> <p>Like 👍 ${movies[i].likes}</p>`
+    node.innerHTML = `<h1>${movies[i].title}</h1> <br> <p>Director: <br><br>${movies[i].Director}</p> <p>Description: <br><br> ${movies[i].Description}</p> <button> Like 👍 </button> ${movies[i].Likes}</p>`
     para.appendChild(node);
-
-
-
-
-    
     
 }
 
+// Like Button//
 
+function likebutton(){
+buttons = document.querySelectorAll("button");
+
+  for (var button of buttons){
+    button.addEventListener("click",function(e){
+      var count = parseInt(e.target.nextElementSibling.innerText);
+      count++;
+      e.target.nextElementSibling.innerText = count;
+      for (var movie of movies){
+        if(movie.id == button.parentNode.parentNode.attributes[0].value){
+          movie.Likes = count;
+          console.log(movie.Likes)
+        }
+      }
+    })
+  }
+}
 
 
 
@@ -89,11 +92,18 @@ footer.innerHTML = '<footer><img src="" alt=""><p>&copy; Wolfgang Figl - Code Re
 document.body.appendChild(footer);
 
 
+//button//
+
+/*var button = document.getElementById("clickme"),
+  count = 0;
+button.onclick = function() {
+  count += 1;
+  button.innerHTML = "Click me: " + count;
+};*/
 
 
 
-
-
+likebutton()
 
 
 
