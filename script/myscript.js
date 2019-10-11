@@ -54,9 +54,9 @@ for (var i = 0; i < movies.length; i++) {
 
 
     var node = document.createElement("div");
-    node.innerHTML = `<h1>${movies[i].title}</h1> <br> <p>Director: <br><br>${movies[i].Director}</p> <p>Description: <br><br> ${movies[i].Description}</p> <button> Like 👍 </button> ${movies[i].Likes}</p>`
+    node.innerHTML = `<h1>${movies[i].title}</h1> <br> <p>Director: <br><br>${movies[i].Director}</p> <p>Description: <br><br> ${movies[i].Description}</p> <button> Like 👍 </button> <span>${movies[i].Likes}</span`
     para.appendChild(node);
-    
+                                                                                                                                                          //Button mit span dann zählt er hoch//
 }
 
 // Like Button//
