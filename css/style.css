@@ -1,8 +1,9 @@
 body {
     margin : 0;
     padding: 0;
-    
-    background-color: black;
+    max-width: 2560px;
+    max-height: 1440px;
+    background-color: white;
 }
 
 
@@ -20,7 +21,7 @@ body {
       padding-top: 0.5em;
      }
 
-   
+
 .navbar{
 
   background-color: #434343;
@@ -81,16 +82,9 @@ body {
   margin: 0.5em;
 }
 
-.allefilme > div{
-  
-
-
-}
-
-
 
 .flexbox{
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
@@ -129,7 +123,7 @@ button {
   background-color: white;
 }
 span{
-  
+  margin: 2em;
 }
 
 
